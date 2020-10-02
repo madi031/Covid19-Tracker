@@ -1,0 +1,47 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.daysLimitContainer {
+  width: 150px;
+  margin-bottom: 25px !important;
+}
+
+.daysLimit {
+  background-color: #323232 !important;
+  border-radius: 50px !important;
+  color: #fafafa !important;
+}
+
+.daysLimit div {
+  padding: 10px !important;
+}
+
+.daysLimit::after,
+.daysLimit::before,
+.daysLimit:hover {
+  border-bottom: 0 !important;
+}
+
+.daysLimit svg {
+  fill: #8d93ab;
+}
+
+ul {
+  background-color: #323232 !important;
+  color: #fafafa !important;
+}
+
+li:hover {
+  background-color: #1159d5 !important;
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+}

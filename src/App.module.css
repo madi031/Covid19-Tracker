@@ -1,0 +1,17 @@
+body {
+  background-color: #242424;
+  color: #fafafa;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.heading {
+  color: #eee !important;
+  margin-bottom: 50px !important;
+}

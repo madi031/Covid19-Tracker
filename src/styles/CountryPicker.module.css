@@ -1,0 +1,23 @@
+.container {
+  width: 40%;
+}
+
+.country {
+  background-color: #323232 !important;
+  border-radius: 50px !important;
+  color: #fafafa !important;
+}
+
+.country svg {
+  fill: #8d93ab;
+}
+
+ul {
+  background-color: #323232 !important;
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+}

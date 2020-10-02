@@ -1,0 +1,46 @@
+.container {
+  margin: 50px auto;
+  width: 100%;
+}
+
+.card {
+  background-color: #323232 !important;
+  color: #fafafa !important;
+  margin: 0 2% !important;
+}
+
+.gutter {
+  margin: 10px 0 !important;
+}
+
+h6.gutter {
+  color: #8d93ab;
+}
+
+.confirmed {
+  border-bottom: 8px solid #ee6f57;
+}
+
+.recovered {
+  border-bottom: 8px solid rgba(0, 255, 0, 0.4);
+}
+
+.dead {
+  border-bottom: 8px solid rgba(255, 0, 0, 0.5);
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.loadingContainer svg {
+  color: #a2d5f2 !important;
+}
+
+@media (max-width: 780px) {
+  .card {
+    margin: 20px !important;
+  }
+}
